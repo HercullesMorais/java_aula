@@ -1,0 +1,22 @@
+package principal;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner numero = new Scanner(System.in);
+		
+		int number;
+		
+		System.out.println("Entre com algum número: ");
+		number = numero.nextInt();
+		
+		System.out.println("O número de entrada foi: ");
+		
+
+	}
+
+}

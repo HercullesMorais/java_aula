@@ -1,0 +1,32 @@
+package principal;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		final double PI = 3.1415;
+		
+		//realiza a potencia
+		System.out.println(Math.pow(2 , 3));
+		
+		//passagem de 2 numeros como parametro
+		// retorna o maior deles
+		System.out.println(Math.max(2 , 20));
+		
+		// é o inverso do max, pega o minimo
+		System.out.println(Math.min(2 , 20));
+
+		// retorna a raiz quadrada
+		System.out.println(Math.sqrt(16));
+		
+
+		// arredonda o número (mais ou menos)
+		System.out.println(Math.round(16.4599));
+		
+
+		// podemos realizar calculos com valores retornados pelo calculo math
+		System.out.println(2 + Math.sqrt(16));
+	}
+
+}

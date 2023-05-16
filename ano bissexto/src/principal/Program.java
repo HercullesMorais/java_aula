@@ -14,12 +14,15 @@ public class Program {
 		System.out.println("Entre com algum ano: ");
 		anoInser = ano.nextInt();
 		
-		if(anoInser % 4 == 0) {
-		 System.out.println("O ano é bissexto!");
+		if((anoInser % 4 == 0 && anoInser % 100 != 0) || anoInser % 400 == 0) {
+			System.out.println("O ano é bissexto!");
 		 
-		} else {
+		} 
+		else {
 			System.out.println("O ano NÃO é bissexto!");
 		}
+	
+		
 		
 		
 	}

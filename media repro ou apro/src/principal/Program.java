@@ -7,10 +7,10 @@ public class Program {
 		
 		
 		
-		double nota1 = 6.99;
-		double nota2 = 6.99;
-		double nota3 = 6.99;
-		double nota4 = 6.99;
+		double nota1 = 12;
+		double nota2 = 12;
+		double nota3 = 12;
+		double nota4 = 12;
 		
 		double media = (nota1 + nota2 + nota3 + nota4) /4;
 		System.out.println(media);
@@ -21,12 +21,15 @@ public class Program {
 		else if (media >= 6 && media < 7) {
 			System.out.println("Aluno recuperação");
 		}
-		if (media >= 7 && media < 10 ) {
+		else if (media >= 7 && media < 10 ) {
 			System.out.println("Aluno aprovado!");
+		}
+		else if (media > 10) {
+			System.out.println("Nota inválida, favor verificar!");
 		}
 		
 		
-		else if (media == 10) {
+		else {
 			System.out.println("Honrado!");
 		}
 		

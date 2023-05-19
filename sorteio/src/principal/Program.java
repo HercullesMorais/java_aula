@@ -28,7 +28,6 @@ class Program {
 		System.out.println(dado3 + " ");
 		
 		
-		
 		if(dado1 == dado2 && dado1 == dado3) {
 			bonus1 = 6;
 			System.out.println("Você é muito surtudo, ganhou 6  pontos!");
@@ -44,8 +43,7 @@ class Program {
 		
 			
 		int totalBonus = bonus1 + bonus2 + bonus3;
-		
-		
+			
 		int totalDados = dado1 + dado2 + dado3;
 		
 		int totalPontos = totalBonus + totalDados;

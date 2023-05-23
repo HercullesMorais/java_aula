@@ -22,8 +22,9 @@ public class Program {
 			switch (operacao) {
 			case '*':
 				for(int contador = 1; contador <= 10; contador++) {
-					int tabu = num * contador;			
-					System.out.println(tabu);
+					int tabu = num * contador;
+					
+					System.out.println(contador + " x " + num + " = " + tabu);
 				};		
 				
 				break;
@@ -31,27 +32,30 @@ public class Program {
 			case '+':
 			
 				for(int contador = 1; contador <= 10; contador++) {
-					int tabu = num + contador;
-					System.out.println(tabu);	
+					int tabu = contador + num;
+					
+					System.out.println(contador + " + " + num + " = " + tabu);	
 				}
 				break;
 				
 			case '-':
-				for(int contador = 1; contador <= 10; contador++) {
-					int tabu = num - contador;
-					System.out.println(tabu);
+				for(int contador = num + 1; contador <= num + 10; contador++) {
+					int tabu = contador - num;
+					
+					System.out.println(contador + " - " + num + " = " + tabu);
 				}		
 				break;
 
 			case '/':
-				for(contator = 1; contator <= 10; contator++) {
-					float divi = num / contator;
-					System.out.println(divi);
+				for(contator = num; contator <= num * 10; contator += num) {
+					float divi = contator / num;
+					
+					System.out.println((contator + " / " + num + " = " + divi));
 				}
 				break;
 
 			default:
-				System.out.println("Não corresponde a um dia da semana.");
+				System.out.println("Não corresponde!");
 				break;
 			}
 			

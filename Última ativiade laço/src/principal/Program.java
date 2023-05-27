@@ -18,6 +18,8 @@ public class Program {
 			
 			System.out.println("Entre com algum número: ");
 			num = sc.nextInt();
+			
+		sc.close();
 				
 			switch (operacao) {
 			case '*':
@@ -58,8 +60,6 @@ public class Program {
 				System.out.println("Não corresponde!");
 				break;
 			}
-			
-		sc.close();
 			
 	}
 
